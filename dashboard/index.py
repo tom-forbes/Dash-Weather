@@ -25,8 +25,7 @@ app.layout = html.Div([ dcc.Location(id="url"),
                                 style={"position": "absolute", "top": "10px", "left": "90px", "zIndex": "3"}), 
                         content
                         ])
-
-
+                        
 
 @app.callback(
     [Output("plotly-map", "figure"),
@@ -106,13 +105,6 @@ def update_plotly(  weather_dropdown2, weather_slider):
 
     return fig, weather_div, weather_slider_label, weather_dropdown2_opt, weather_slider_marks
      
-
-'''
-Callback to show the plotted technolog data 
-given the selected map data and various custom values
-'''
-
-
 
 
 # Hide / show summary container when summary button clicked
