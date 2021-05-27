@@ -1,0 +1,11 @@
+dash
+pandas
+numpy
+requests
+dash_bootstrap_components
+dash_table
+plotly
+pytz
+#geopandas
+#geojson
+#xlrd
