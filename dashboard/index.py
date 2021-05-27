@@ -119,7 +119,7 @@ def summary_click(nclick):
 
 
 # Hide / Show the alert datatable on the map
-# by clicking the alert button
+# by clicking the alert button.
 @app.callback(Output("alert-container", "hidden"), [Input("alert-button", "n_clicks")])
 def alert_button(nclicks):
     if nclicks==None:
@@ -128,7 +128,6 @@ def alert_button(nclicks):
         return False
     else:
         return True
-
 
 
 
